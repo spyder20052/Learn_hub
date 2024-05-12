@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme d'Apprentissage en Ligne</title>
+    <link rel="stylesheet" href="accueil.css">
+    <style>
+        /* Ajoutez vos styles CSS personnalisés ici */
+        body {
+            background-image: url('animation.gif'); /* Remplacez 'animation.gif' par le chemin de votre image GIF */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            /* Ajoutez des animations CSS personnalisées ici si nécessaire */
+        }
+        /* Effet de survol sur les images */
+        .service img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+        .service img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre Plateforme d'Apprentissage en Ligne</h1>
+        <p>Apprenez, Explorez, Grandissez</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="accueil.html" id="accueil">Accueil</a></li>
+            <li><a href="cours.html" id="cours">Cours</a></li>
+            <li><a href="apropos.html" id="apropos">À Propos</a></li>
+            <li><a href="contact.html" id="contact">Contact</a></li>
+            <li><a href="./frontend/quiz.html" id="quiz">Quiz</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="services">
+            <h2>Nos Services</h2>
+            <div class="service">
+                <img src="cours.png" alt="Cours">
+                <h3>Cours interactifs</h3>
+                <p>Accédez à une large gamme de cours interactifs sur divers sujets.</p>
+            </div>
+            <div class="service">
+                <a href="tutoriel.html" id="quiz">
+                <img src="tutoriels.png" alt="Tutoriels">
+                <h3>Tutoriels détaillés</h3>
+                <p>Explorez nos tutoriels détaillés pour améliorer vos compétences.</p>
+                </a>
+            </div>
+            <div class="service">
+                <img src="communaute.png" alt="Communauté">
+                <h3>Communauté active</h3>
+                <p>Rejoignez une communauté active d'apprenants et d'experts.</p>
+            </div>
+        </section>
+        <section id="inscription">
+            <h2>Inscrivez-vous dès maintenant !</h2>
+            <p>Accédez à tous nos cours et ressources gratuitement en vous inscrivant dès aujourd'hui.</p>
+            <a href="inscription.html" class="bouton">Inscrivez-vous</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+        <p>By Spynel KOUTON and Emmanuela TODEDJI</p>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,20 @@
+{
+    "name": "learnhub-server",
+    "version": "1.0.0",
+    "description": "Serveur backend pour le générateur de quiz",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node backend/server.js"
+    },
+    "author": "Spynel KOUTON",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.19.2",
+        "node-fetch": "^2.7.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.5",
+        "@babel/node": "^7.23.9",
+        "@babel/preset-env": "^7.24.5"
+    }
+}
